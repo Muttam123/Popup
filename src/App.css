@@ -1,0 +1,26 @@
+#root {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+.popup{
+  height: 400px;
+  width: 50%;
+  background-color: greenyellow;
+  position: absolute;
+  top: 25%;
+  right: 25%;
+}
+.popup img{
+  height: 100%;
+  width: 100%
+}
+.popup button{
+  position:absolute;
+  right: 0;
+  z-index: 10;
+  margin: 5px;
+  height: 50px;
+  background-color: rgb(197, 197, 223);
+}
