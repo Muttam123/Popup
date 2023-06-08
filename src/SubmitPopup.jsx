@@ -12,7 +12,7 @@ function SubmitPopup() {
 
   return (
     <div>
-     <button onClick={handleClickOpen}> Open Popup</button>
+     <button onClick={handleClickOpen}>Looks good</button>
       { popup === true ? (
            <div className='popup'>
           <button onClick={handleclosePopup}>X</button>        
