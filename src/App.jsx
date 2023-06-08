@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Form } from '@formio/react';
 import './App.css'
-import SubmitPopup from '../../SubmitPopup';
+import SubmitPopup from './SubmitPopup';
 
 function App() {
   return (
