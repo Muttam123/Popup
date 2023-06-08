@@ -3,14 +3,7 @@ import { Components } from 'formiojs';
 
 class CustomComponent extends Components.components.textfield {
   static schema() {
-    return {
-      type: 'custom',
-      label: 'Custom Component',
-      key: 'custom',
-      input: false,
-      persistent: false,
-      customProperty: 'Custom Property Value',
-    };
+    
   }
 
   renderElement() {

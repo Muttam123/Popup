@@ -4,42 +4,13 @@ import './App.css'
 import SubmitPopup from '../../SubmitPopup';
 
 function App() {
-  const [count, setCount] = useState(0)
-  
-    const form = {
-      components: [
-        {
-          type: 'custom',
-          key: 'myCustomComponent',
-        },
-      ],
-    };
-  const [popup,setPop] = useState(false);
-  const handleClickOpen=()=>{
-    setPop(!popup);
-  } 
-  const handleclosePopup = () => {
-    setPop(!popup);
-
-  }
   return (
     <div className="App">
-    <Form src="https://forms-stage.vialto.com/formio/kayla" form={form} />
-    <button onClick={handleClickOpen}> Open Popup</button>
+    <Form src="https://forms-stage.vialto.com/formio/kayla"/>
     
     <SubmitPopup/>
     <div>
-      <div className='main'>
-        { popup === true ? (
-           <div className='popup'>
-          <button onClick={handleclosePopup}>X</button>        
-        <img src="https://im2.ezgif.com/tmp/ezgif-2-a20fcbbcdf.png"/>
-        
-      </div>)
-      : (null)
-
-        }
-     
+      <div className='main'> 
     </div>
     </div>
   </div>
