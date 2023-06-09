@@ -19,7 +19,7 @@ function SubmitPopup() {
         <img src="https://ik.imagekit.io/otlrg1qg7/Briefing_Questionnaire/Thank_you.jpg?updatedAt=1686117432823" />
         
       </div>)
-      : (null)
+      : (MessageEvent)
 
         }
     </div>
